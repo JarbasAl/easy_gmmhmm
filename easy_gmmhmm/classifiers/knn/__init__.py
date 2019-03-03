@@ -125,7 +125,7 @@ class KNNTester(Tester):
 
         Args:
             test_file (str): path to wav file to test
-            knns (dict): models to use for inference
+            knn : model to use for inference
         """
         mfcc_feat = self.read_features(test_file)
         pred = knn.predict(mfcc_feat)

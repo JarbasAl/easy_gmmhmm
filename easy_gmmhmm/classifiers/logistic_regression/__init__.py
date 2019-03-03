@@ -120,7 +120,7 @@ class LogisticRegressionTester(Tester):
 
         Args:
             test_file (str): path to wav file to test
-            knns (dict): models to use for inference
+            logreg: model to use for inference
         """
         mfcc_feat = self.read_features(test_file)
         pred = logreg.predict(mfcc_feat)
