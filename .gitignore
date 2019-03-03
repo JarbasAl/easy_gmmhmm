@@ -171,3 +171,4 @@ _build/
 docs/
 automarkdocs.py
 easy_gmmhmm/pydocmd.yml
+/examples/pygender/

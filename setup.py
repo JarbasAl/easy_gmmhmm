@@ -2,9 +2,9 @@ from setuptools import setup
 
 setup(
     name='easy_gmmhmm',
-    version='0.1',
+    version='0.2',
     packages=['easy_gmmhmm'],
-    url='',
+    url='https://github.com/JarbasAl/easy_gmmhmm',
     license='MIT',
     author='jarbasAI',
     author_email='jarbasai@mailfence.com',
