@@ -1,4 +1,4 @@
-from easy_gmmhmm.classifiers.gmmhmm import GMMHMMTester
+from classifaudio.classifiers.gmmhmm import GMMHMMTester
 from os.path import join, dirname
 
 

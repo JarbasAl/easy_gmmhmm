@@ -1,4 +1,4 @@
-from easy_gmmhmm.classifiers.gmmhmm import GMMHMMTrainer
+from classifaudio.classifiers.gmmhmm import GMMHMMTrainer
 from os.path import join, dirname
 
 # where to save the model
@@ -9,8 +9,8 @@ data_path = join(dirname(__file__), "pygender", "train_data", "youtube")
 model_name = "gender_gmmhmm"
 
 # config optional, if not provided is asked interactively
-config = {"male": {"n_components": 10, "n_mix": 10},
-          "female": {"n_components": 10, "n_mix": 10}}
+config = {"male": {"n_components": 20, "n_mix": 10},
+          "female": {"n_components": 20, "n_mix": 10}}
 
 
 trainer = GMMHMMTrainer(data_path, model_name, model_path, config)
